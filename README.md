@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🚆 RailGenius – Railway Reservation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**RailGenius** is a full-stack railway reservation system inspired by UTS and M-Indicator, built using the **MERN stack** (MongoDB, Express.js, React, Node.js). The system provides a seamless and modern web-based platform for train ticket booking, cancellations, schedule browsing, and real-time availability checks.
 
-## Available Scripts
+This project modernizes railway booking experiences with features like class-wise seat selection, secure payments, voice assistant support, and email confirmations. It serves as both a practical full-stack development showcase and a functional smart travel planning tool.
 
-In the project directory, you can run:
 
-### `npm start`
+## 📸 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home Page:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/user-attachments/assets/3d2813dd-1844-40dc-807d-a52c993939c2)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Express Train Booking System:
 
-### `npm run build`
+![image](https://github.com/user-attachments/assets/4055ee0c-e26b-4a21-b961-7fe527b0d258)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Seat Selection:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/user-attachments/assets/48ed061b-d739-4995-ab3f-cd91149bdfb6)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Passenger Details:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/user-attachments/assets/45c5f763-277b-4cc0-b3b5-cdb7443a8ec7)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Booking Confimation: 
 
-## Learn More
+![image](https://github.com/user-attachments/assets/9ec821e2-1fd0-4fa6-a212-45d3b3b96b23)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## ✨ Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 🔍 **Real-time Train Search** – Live train data fetched and managed from the backend  
+- 🧾 **Ticket Booking & Cancellation** – Book or cancel tickets with backend updates  
+- 🪑 **Class & Seat Selection** – Choose from Economy, Business, or First Class  
+- 💳 **Payment Integration** – Secure transactions via third-party payment gateways  
+- 📧 **Email Notifications** – Automated ticket confirmation and booking summary via email  
+- 🗣️ **Voice Assistant** – Search trains and get schedule updates using voice commands  
+- 🗺️ **3D Maps & Station View** – Visual experience for better navigation  
+- 🔐 **User Authentication** – Secure login and session handling
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠️ Tech Stack
 
-### Deployment
+- **Frontend**: React.js, HTML, CSS, JavaScript  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **APIs**: Stripe (or equivalent) for payments, train schedule APIs  
+- **Libraries/Tools**: Axios, React Router, Nodemailer, Web Speech API  
+- **Authentication**: JWT for secure user login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📄 Project Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+RailGenius tackles the inefficiencies of traditional railway systems by combining a robust backend with an interactive frontend. It enables users to easily search for trains, book and cancel tickets, receive email confirmations, and use voice commands — all with an emphasis on speed, usability, and reliability.
+
